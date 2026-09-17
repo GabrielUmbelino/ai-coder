@@ -45,3 +45,20 @@ $RECYCLE.BIN/
 
 # NFS temporary files
 .nfs*
+### Node / Next.js
+node_modules/
+.next/
+out/
+build/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+### Env files
+.env*
+!.env.example
